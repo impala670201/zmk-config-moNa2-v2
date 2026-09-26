@@ -87,48 +87,48 @@ layers:
   - {t: ▽, type: trans}
   - RSHFT
   '2':
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '-'
-  - _
-  - '`'
-  - '~'
-  - '"'
-  - ''''
+  - ESC
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '='
+  - {t: ▽, type: trans}
+  - DELETE
+  - TAB
+  - Sft+5
+  - Sft+6
+  - Sft+7
+  - Sft+7
+  - HOME
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
   - +
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F11
-  - F12
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - LSHFT
+  - Sft+8
+  - Sft+9
+  - Sft+0
+  - +
+  - Sft+\
+  - END
+  - ;
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
+  - LSHFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LALT
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RSHFT
   '3':
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
