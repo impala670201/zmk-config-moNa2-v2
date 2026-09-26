@@ -97,10 +97,10 @@
 
         layer_3 {
             bindings = <
-&kp ESC    &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp BSPC
-&kp TAB    &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp GRAVE
-&kp LSHFT  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &kp FSLH
-&kp LCTRL  &trans              &kp LALT                &trans                   &trans                   &trans    &trans  &trans                                                   &kp RSHFT
+&kp ESC    &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &trans    &mkp MB4  &trans    &kp BSPC
+&kp TAB    &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &mkp MB1  &trans    &mkp MB2  &kp GRAVE
+&kp LSHFT  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &trans    &mkp MB5  &trans    &kp FSLH
+&kp LCTRL  &trans              &kp LALT                &trans                   &trans                   &trans    &trans  &trans                                &kp RSHFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -109,9 +109,9 @@
         layer_4 {
             bindings = <
 &trans     &trans  &trans    &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans     &trans  &trans    &trans  &trans            &trans       &trans        &trans        &trans        &trans        &trans
+&trans     &trans  &trans    &trans  &trans            &trans       &trans        &mkp MB1      &mkp MB3      &mkp MB2      &trans
 &trans     &trans  &trans    &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&kp LCTRL  &trans  &kp LALT  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
+&kp LCTRL  &trans  &kp LALT  &trans  &trans  &trans    &trans       &trans                                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
