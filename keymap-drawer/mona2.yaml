@@ -107,7 +107,7 @@ layers:
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
-  - +
+  - LANGUAGE 2
   - LSHFT
   - Sft+8
   - Sft+9
