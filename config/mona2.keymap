@@ -87,7 +87,7 @@
         layer_2 {
             bindings = <
 &kp ESC    &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)                                 &kp PAGE_UP    &trans    &trans        &trans     &kp DELETE
-&kp TAB    &kp LS(N5)        &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N7)                             &kp HOME  &kp PAGE_DOWN  &trans    &kp UP_ARROW  &trans     &kp PLUS
+&kp TAB    &kp LS(N5)        &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N7)                             &kp HOME  &kp PAGE_DOWN  &trans    &kp UP_ARROW  &trans     &kp LANGUAGE_2
 &kp LSHFT  &kp LS(N8)        &kp LS(N9)        &kp LS(N0)        &kp PLUS          &kp LS(BACKSLASH)    &kp END   &kp SEMI       &kp LEFT  &kp DOWN      &kp RIGHT  &trans
 &kp LSHFT  &trans            &kp LALT          &trans            &trans            &trans               &trans    &trans                                            &kp RSHFT
             >;
