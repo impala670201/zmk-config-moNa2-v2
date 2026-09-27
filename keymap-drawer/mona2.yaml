@@ -38,8 +38,8 @@ layers:
   - LEFT WIN
   - LALT
   - {t: ']', h: '2'}
-  - {t: \, h: '3'}
-  - {t: '-', h: '5'}
+  - {t: \, h: '5'}
+  - {t: '-', h: '3'}
   - {t: SPACE, h: '1'}
   - SPACE
   - RSHFT
@@ -94,7 +94,7 @@ layers:
   - Sft+4
   - PAGE UP
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+RIGHT GUI
   - {t: ▽, type: trans}
   - DELETE
   - TAB
@@ -130,48 +130,48 @@ layers:
   - {t: ▽, type: trans}
   - RSHFT
   '3':
-  - ESC
-  - Ctl+Sft+TAB
-  - PRINTSCREEN
-  - Ctl+TAB
+  - F1
+  - F2
+  - F3
+  - F4
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - BSPC
-  - TAB
-  - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
-  - Ctl+Gui+LEFT ARROW
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - \
+  - F5
+  - F6
+  - F7
+  - F8
   - Ctl+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - '`'
-  - LSHFT
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ;
+  - ''''
+  - ENTER
+  - ','
+  - .
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
   - {t: ▽, type: trans}
   - /
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LCTRL
   - {t: ▽, type: trans}
   - LALT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RSHFT
   '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -216,48 +216,48 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '5':
-  - F1
-  - F2
-  - F3
-  - F4
-  - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
-  - F5
-  - F6
-  - F7
-  - F8
+  - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ;
-  - ''''
-  - ENTER
-  - ','
-  - .
-  - F9
-  - F10
-  - F11
-  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - {t: ▽, type: trans}
+  - BSPC
+  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '`'
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - /
-  - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LCTRL
   - {t: ▽, type: trans}
   - LALT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - RSHFT
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
