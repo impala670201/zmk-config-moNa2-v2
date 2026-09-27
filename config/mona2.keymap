@@ -67,7 +67,7 @@
 &kp Q      &kp W         &kp E     &kp R                &kp T                                     &kp Y      &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S         &kp D     &kp F                &kp G                      &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp ENTER
 &kp Z      &kp X         &kp C     &kp V                &kp B       &kp UNDER      &kp SEMICOLON  &kp N      &kp M  &kp COMMA  &kp DOT  &kp LS(QUESTION)
-&kp LCTRL  &kp LEFT_WIN  &kp LALT  &lt 2 RIGHT_BRACKET  &lt 3 BSLH  &lt 5 MINUS    &lt 1 SPACE    &kp SPACE                             &kp RSHFT
+&kp LCTRL  &kp LEFT_WIN  &kp LALT  &lt 2 RIGHT_BRACKET  &lt 5 BSLH  &lt 3 MINUS    &lt 1 SPACE    &kp SPACE                             &kp RSHFT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -86,10 +86,10 @@
 
         layer_2 {
             bindings = <
-&kp ESC    &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)                                 &kp PAGE_UP    &trans    &trans        &trans     &kp DELETE
-&kp TAB    &kp LS(N5)        &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N7)                             &kp HOME  &kp PAGE_DOWN  &trans    &kp UP_ARROW  &trans     &kp LANGUAGE_2
-&kp LSHFT  &kp LS(N8)        &kp LS(N9)        &kp LS(N0)        &kp PLUS          &kp LS(BACKSLASH)    &kp END   &kp SEMI       &kp LEFT  &kp DOWN      &kp RIGHT  &trans
-&kp LSHFT  &trans            &kp LALT          &trans            &trans            &trans               &trans    &trans                                            &kp RSHFT
+&kp ESC    &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)                                 &kp PAGE_UP    &trans    &kp LS(RIGHT_GUI)  &trans     &kp DELETE
+&kp TAB    &kp LS(N5)        &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N7)                             &kp HOME  &kp PAGE_DOWN  &trans    &kp UP_ARROW       &trans     &kp LANGUAGE_2
+&kp LSHFT  &kp LS(N8)        &kp LS(N9)        &kp LS(N0)        &kp PLUS          &kp LS(BACKSLASH)    &kp END   &kp SEMI       &kp LEFT  &kp DOWN           &kp RIGHT  &trans
+&kp LSHFT  &trans            &kp LALT          &trans            &trans            &trans               &trans    &trans                                                 &kp RSHFT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -97,10 +97,10 @@
 
         layer_3 {
             bindings = <
-&kp ESC    &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &trans    &mkp MB4  &trans    &kp BSPC
-&kp TAB    &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &mkp MB1  &trans    &mkp MB2  &kp GRAVE
-&kp LSHFT  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &trans    &mkp MB5  &trans    &kp FSLH
-&kp LCTRL  &trans              &kp LALT                &trans                   &trans                   &trans    &trans  &trans                                &kp RSHFT
+&kp F1     &kp F2   &kp F3    &kp F4   &trans                                     &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH
+&kp F5     &kp F6   &kp F7    &kp F8   &kp LC(LG(RIGHT_ARROW))            &trans  &kp SEMI   &kp APOS   &kp ENTER  &kp COMMA  &kp DOT
+&kp F9     &kp F10  &kp F11   &kp F12  &trans                   &trans    &trans  &kp FSLH   &kp GRAVE  &trans     &trans     &trans
+&kp LCTRL  &trans   &kp LALT  &trans   &trans                   &trans    &trans  &trans                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -119,10 +119,10 @@
 
         MOUSE {
             bindings = <
-&kp F1     &kp F2   &kp F3    &kp F4   &trans                    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH
-&kp F5     &kp F6   &kp F7    &kp F8   &trans            &trans  &kp SEMI   &kp APOS   &kp ENTER  &kp COMMA  &kp DOT
-&kp F9     &kp F10  &kp F11   &kp F12  &trans  &trans    &trans  &kp FSLH   &kp GRAVE  &trans     &trans     &trans
-&kp LCTRL  &trans   &kp LALT  &trans   &trans  &trans    &trans  &trans                                      &trans
+&kp ESC    &trans  &trans    &trans  &trans                    &trans  &trans    &mkp MB4  &trans    &kp BSPC
+&kp TAB    &trans  &trans    &trans  &trans            &trans  &trans  &mkp MB1  &trans    &mkp MB2  &kp GRAVE
+&kp LSHFT  &trans  &trans    &trans  &trans  &trans    &trans  &trans  &trans    &mkp MB5  &trans    &kp FSLH
+&kp LCTRL  &trans  &kp LALT  &trans  &trans  &trans    &trans  &trans                                &kp RSHFT
             >;
 
             sensor-bindings = <&scroll_up_down>;
