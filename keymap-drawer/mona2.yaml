@@ -120,7 +120,7 @@ layers:
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
-  - LSHFT
+  - LCTRL
   - {t: ▽, type: trans}
   - LALT
   - {type: held}
